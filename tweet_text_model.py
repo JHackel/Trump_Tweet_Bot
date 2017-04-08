@@ -7,12 +7,6 @@ from keras.utils import np_utils
 with open('trimmed_tweets.txt', 'r') as myfile:
     text=myfile.read()
 
-# create mapping of unique chars to integers
-text_as_list = text.split("\n")
-chars = sorted(list(set(text)))
-char_to_int = dict((c, i) for i, c in enumerate(chars))
-int_to_char = dict((i, c) for i, c in enumerate(chars))
-
 # to_delete = chars[90:]
 # for char in to_delete:
 #     text = text.replace(char,"")
@@ -20,11 +14,16 @@ int_to_char = dict((i, c) for i, c in enumerate(chars))
 # with open('trimmed_tweets.txt','w') as text_file:
 #     text_file.write(text)
 
+# create mapping of unique chars to integers
+text_as_list = text.split("\n")
+chars = sorted(list(set(text)))
+char_to_int = dict((c, i) for i, c in enumerate(chars))
+int_to_char = dict((i, c) for i, c in enumerate(chars))
+
 n_chars = len(text)
 n_vocab = len(chars)
 print("Total Characters: ", n_chars)
 print("Total Vocab: ", n_vocab)
-
 
 # Padding preparation
 pad_char = '{'
@@ -100,4 +99,4 @@ def generate_text(file_path,number_of_tweets=5):
     print("Done.")
 
 train(50)
-# generate_text("1-lstm-layer/weights-improvement-03-2.1947.hdf5",100)
+# generate_text("2-lstm-layer/weights-improvement-00-2.1947.hdf5",100)
