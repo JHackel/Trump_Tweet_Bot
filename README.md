@@ -14,3 +14,6 @@ Libraries used:
 -Tensorflow as backend
 
 I will post some results at a later date. (Currently training for better results)
+
+
+Note: The "{" character is being used for padding and can be thought of as not being anything as far as results are concerned.
