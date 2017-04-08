@@ -66,9 +66,9 @@ model.add(Dropout(0.2))
 model.add(Dense(y.shape[1], activation='softmax'))
 
 def train(epochs=10,weights_file_to_load=None):
-    model.compile(loss='categorical_crossentropy', optimizer='adam')
     if(weights_file_to_load):
         model.load_weights(weights_file_to_load)
+    model.compile(loss='categorical_crossentropy', optimizer='adam')
     # define the checkpoint
     file_path = "2-lstm-layer/weights-improvement-{epoch:02d}-{loss:.4f}.hdf5"
     checkpoint = ModelCheckpoint(file_path, monitor='loss', verbose=1, save_best_only=True, mode='min')
