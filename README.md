@@ -9,6 +9,8 @@ Libraries used:
 
 -numpy
 
+-pandas
+
 -Tensorflow as backend
 
 I will post some results at a later date. (Currently training for better results)
