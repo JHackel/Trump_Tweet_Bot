@@ -4,8 +4,11 @@ A mostly for fun practice with text generation, currently based off of Donald Tr
 I mostly used this guide as a basis in writing the code: http://machinelearningmastery.com/text-generation-lstm-recurrent-neural-networks-python-keras/
 
 Libraries used:
+
 -Keras
+
 -numpy
+
 -Tensorflow as backend
 
 I will post some results at a later date. (Currently training for better results)
