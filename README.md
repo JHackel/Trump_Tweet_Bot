@@ -43,9 +43,9 @@ Seed: " @realdonaldtrump  great minds never stop. such qualities make great lead
 
 Output: hip and the best show on the trump tower to the best show on @foxandfriends at 700 a.m. enjoy! #trump2016 https//t.co/ffffffeeeq https//t.co
 
-Seed: " standing on what will be the greatest golf course in the world. open "
+Seed: "  knock the president anyway. wrong, i would love to see him do a great job, "
 
- Output: the truth and the best show on the trump tower in the world. the best show is a great country to see you to be a great course in the us and
+Output: the art of the deal! #trump2016"  thanks. i will be the best and the man to see you show to the world to be a great place!"  thanks. i will 
  
  After 70 epochs:
  
